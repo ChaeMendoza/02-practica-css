@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    color: #2e4c83;
+}
+
+p {
+    color: rgba(69, 69, 98, 0.75);
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 48;
+    color: yellow;
+    background: rgba(255, 165, 0, 0.08);
+    border-radius: 20%;
+}
+
+
+.div-nav {
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.55);
+}
+
+.left {
+    margin-left: 80px;
+    color: #4c4cf8;
+}
+
+.logo-title {
+    cursor: pointer;
+}
+
+ul {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   width: 800px;
+   margin-right: 50px;
+}
+
+li {
+    list-style: none;
+    font-weight: bold;
+    color: rgba(69, 69, 98, 0.75);
+    cursor: pointer;
+}
+
+.btn {
+    border: none;
+    height: 40px;
+    width: 130px;
+    background-color: #3535fc;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 3px 3px rgba(5, 35, 197, 0.81);
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn-transparent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.element {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 160px;
+    margin: 20px;
+}
+
+.color {
+    color: #2e4c83;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.content-left {
+    width: 50%;
+    padding: 80px;
+}
+
+.content-right {
+    background: #4c4cf8;
+    width: 50%;
+}
+
+.enfermera {
+    height: 600px;
+}
